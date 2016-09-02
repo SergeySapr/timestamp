@@ -21,7 +21,10 @@ app.get('/',function(req,res){
  res.send("Provide either a natural date value (eg 01Jan2016) or a unix timestamp (eg  1451606400).");
 });
 
-app.listen(process.env.PORT||8080,process.env.IP, function () {console.log(process.env.PORT,process.env.IP);
+var port = +process.env.PORT
+if (!port) port = 8080;
+
+app.listen(port, function () {console.log(process.env.PORT,process.env.IP);
   //  console.log(process.env);
   console.log('Example app listening on port 8080!');
 });
