@@ -4,8 +4,8 @@
   "description": "Timestamp API",
   "main": "index.js",
   "scripts": {
-    "test": "test.js",
-    "start": "server.js"
+    "test": "node test.js",
+    "start": "node server.js"
   },
   "keywords": [
     "API",
