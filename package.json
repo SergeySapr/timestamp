@@ -1,6 +1,6 @@
 {
   "name": "timestamp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Timestamp API",
   "main": "index.js",
   "scripts": {
